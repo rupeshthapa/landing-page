@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+}
+/* Navigation Bar */
+header{
+    height: 10vh;
+    position: sticky;
+    z-index: 10;
+    top: 0;
+}
+nav{
+    text-align: center;
+}
+nav ul li{
+    display: inline;
+    margin: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+#faq{
+    float: right;
+    margin-right: 50px;
+}
