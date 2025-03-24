@@ -29,9 +29,16 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: black;
-    
+
 }
 #faq{
     float: right;
     margin-right: 50px;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 5px;
+}
+a:hover{
+    color: #f0f0f0;
+    background-color: black;
 }
