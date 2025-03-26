@@ -34,6 +34,7 @@ nav ul li a{
 #faq{
     float: right;
     margin-right: 50px;
+    margin-top: -10px;
     background-color: lightgray;
     padding: 10px;
     border-radius: 5px;
