@@ -19,16 +19,20 @@ body {
 
 /* Navigation Bar */
 header {
-    position: sticky;
+    position: fixed; /* Places navbar on the image */
     top: 0;
-    z-index: 1000;
+    left: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
-    backdrop-filter: blur(10px);
+    z-index: 1000;
+    background: black; /* Semi-transparent black */
+    margin: 10px;
     padding: 15px 0;
-    margin-bottom: 0; /* Remove gap */
 }
-
+/* Heading */
+h2{
+    color: white;
+    margin-left: 10px;
+}
 /* Navigation Container */
 nav {
     display: flex;
@@ -44,7 +48,7 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
-    margin: 0; /* Remove default margin */
+    margin: 0;
     padding: 0;
 }
 
@@ -83,15 +87,17 @@ nav ul li a:hover {
 #faq:hover {
     background-color: #0056b3;
 }
+
 /* Search Bar */
-.search-input{
+.search-input {
    border-radius: 10px;
    height: 5vh;
    width: 25vw; 
    border: none;
    margin-top: -1px;
 }
-.search-btn{
+
+.search-btn {
     margin-left: -23px;
     border-radius: 10px;
     margin-top: 1px;
@@ -100,9 +106,11 @@ nav ul li a:hover {
     background-color: #ffffff;
     cursor: pointer;
 }
-.search-btn:hover{
+
+.search-btn:hover {
     background-color: hsl(0, 0%, 95%);
 }
+
 /* Hero Section */
 .hero {
     position: relative;
@@ -112,11 +120,8 @@ nav ul li a:hover {
     align-items: center;
     justify-content: center;
     color: white;
-    padding: 20px;
     text-align: center;
     overflow: hidden;
-    margin-top: 0; /* Remove any extra space */
-    padding-top: 0;
 }
 
 /* Blurred Background */
@@ -159,6 +164,3 @@ nav ul li a:hover {
 .btn:hover {
     background-color: #0056b3;
 }
-
-
-
