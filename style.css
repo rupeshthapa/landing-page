@@ -184,5 +184,6 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 .about article{
-    
+    background-color: white;
+    color: black;
 }
