@@ -173,9 +173,9 @@ nav ul li a:hover {
     padding: 40px 20px;
     margin: 50px auto;
     text-align: center;
-    /* background-color: #f9f9f9; */
-    /* color: black; */
-    /* border-radius: 10px; */
+    background-color: #333;
+    color: black;
+    border-radius: 10px;
     
 }
 .about h1 {
@@ -184,6 +184,20 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 .about article{
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.about a{
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 0.3s;
+    margin-left: 50%;
+    width: 100%;
+    height: 5vh;
+
 }
