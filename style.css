@@ -200,5 +200,36 @@ nav ul li a:hover {
     margin-left: 50%;
     width: 100%;
     height: 5vh;
+}
 
+.about a:hover {
+    background-color: #0056b3;
+}
+/* Home Features Section */
+.features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #333;
+    padding: 40px 20px;
+    margin: 50px auto;
+    max-width: 1200px;
+    border-radius: 10px;
+}
+.features h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: white;
+}
+.features p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin-bottom: 20px;
+    color: white;
+}
+.features a{
+    color: white;
+    margin-top: -40px;
+    margin-right: 350px;
 }
